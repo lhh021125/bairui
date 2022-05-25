@@ -1,0 +1,131 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.banner {
+	position: relative;
+}
+
+.banner .heZuo {
+	width: 193px;
+	height: 48px;
+	font-family: FZCSK--GBK1-0;
+	font-size: 48px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 113px;
+	letter-spacing: 0px;
+	color: #19b5d4;
+	position: absolute;
+	top: 130px;
+	left: 207px;
+}
+
+.banner .black {
+	width: 563px;
+	height: 31px;
+	background-color: #1a1a1a;
+	position: absolute;
+	top: 222px;
+	left: 207px;
+	font-family: BodoniMT-Italic;
+	font-size: 22px;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #a6a5a5;
+}
+
+.contact {
+	padding: 81px 240px 0px 250px;
+	text-align: center;
+	box-sizing: border-box;
+	width: 1600px;
+	height: 5279px;
+	background-color: #045568;
+	/* border: solid 2px red; */
+	position: relative;
+}
+
+.gang {
+	width: 2px;
+	height: 5059px;
+	background-color: #01678C;
+	position: absolute;
+	top: 200px;
+	left: 799px;
+	z-index:0;
+}
+
+.contact .number {
+	width: 158px;
+	height: 47px;
+	background-color: #059ec1;
+	border-radius: 15px;
+	font-family: MicrosoftYaHei;
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 47px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	margin: 0px auto;
+	margin-bottom: 28px;
+	z-index: 4;
+
+}
+
+.year_text {
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 46px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	margin-bottom: 91px;
+}
+
+
+
+.big ul {
+	width: 1053px;
+	height: 329px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+	margin-bottom: 18px;
+}
+
+.big li {
+	float: left;
+}
+
+.contact_write {
+	margin-top: 114px;
+	width: 475px;
+	/* height: 86px; */
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #ffffff;
+	vertical-align: -114px;
+	padding-right: 20px;
+	
+
+}
+.contact  .big img{
+	width: 535px;
+	/* padding-left: 10px; */
+}
+.contact .big .two_img{
+	padding-left: 15px;
+}

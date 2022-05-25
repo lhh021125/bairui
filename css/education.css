@@ -1,0 +1,420 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+#main {
+	position: relative;
+}
+
+#main .white {
+	width: 1600px;
+	height: 2px;
+	background-color: #FBF7F7;
+}
+
+.banner {
+	width: 1600px;
+	height: 570px;
+}
+
+.jiaoYu {
+	width: 1600px;
+	height: 573px;
+	box-sizing: border-box;
+	padding: 0px 203px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+.jiaoYu .xianTiao {
+	position: absolute;
+	top: 83px;
+	left: 463px;
+}
+
+.jiaoYu .title {
+	margin: 0px auto;
+	width: 168px;
+	height: 24px;
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #067fb7;
+	padding-top: 33px;
+}
+
+.jiaoYu .huiSe {
+	width: 240px;
+	height: 17px;
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 31px;
+	letter-spacing: 0px;
+	color: #9c9c9c;
+	position: absolute;
+	top: 89px;
+	left: 662px;
+}
+
+.jiaoYu .write_edu {
+	width: 1193px;
+	height: 76px;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 31px;
+	letter-spacing: 0px;
+	color: #686868;
+	margin: 0px auto;
+	margin-top: 80px;
+}
+
+.computer {
+	width: 100%;
+	/* height: 100%; */
+	margin-top: 40px;
+}
+
+#color {
+	width: 1600px;
+	height: 1900px;
+	background: url(../img/education/black.png) repeat fixed center;
+	box-sizing: border-box;
+	position: relative;
+	/* margin: 0px auto; */
+	/* position: absolute;
+	left: 0px; */
+}
+
+#color .keCheng {
+	width: 100px;
+	height: 25px;
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	padding: 50px 0px 29px 753px;
+
+}
+
+#color .xianTiao {
+	padding-left: 454px;
+}
+
+#color #write {
+	width: 317px;
+	height: 19px;
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #f8f8f8;
+	position: absolute;
+	top: 113px;
+	left: 638px;
+}
+
+#color .blue {
+	padding: 9px 200px;
+	/* background-color: #1b94e1; */
+}
+
+#color .top_blue {
+	/* padding: 9px 200px; */
+	width: 137px;
+	height: 42px;
+	display: inline-block;
+	background-color: #1b94e1;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	line-height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#color .content {
+	width: 1198px;
+	height: 416px;
+	background-color: #1b94e1;
+	padding: 22px 0px 0px 34px;
+	box-sizing: border-box;
+}
+
+#color .cricle {
+	width: 48px;
+	height: 48px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #f2f2f2;
+	text-align: center;
+	line-height: 48px;
+	margin-bottom: 18px;
+}
+
+.mingCheng {
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 23px;
+	letter-spacing: 0px;
+	color: #fff;
+	margin-bottom: 10px;
+	/* margin-right: 255px; */
+}
+
+.jieShao {
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.xian {
+	height: 2px;
+	width: 220px;
+	background-color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+.float {
+	float: left;
+	margin-right: 94px;
+}
+
+.float:last-child {
+	margin-right: 0px;
+}
+
+
+/* 黄色 */
+#color .yellow {
+	padding: 9px 200px;
+	/* overflow: hidden; */
+	/* float: right; */
+
+}
+
+#color .top_yellow {
+	/* padding: 9px 200px; */
+	width: 137px;
+	height: 42px;
+	display: inline-block;
+	background-color: #c4b005;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	line-height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.content_yellow {
+	width: 1198px;
+	height: 350px;
+	background-color: #c4b005;
+	padding: 22px 0px 0px 34px;
+	/* margin-top: 42px; */
+	box-sizing: border-box;
+}
+
+.top_circle {
+	height: 48px;
+	width: 48px;
+	margin-bottom: 18px;
+}
+
+/* 绿色 */
+#color .green {
+	padding: 9px 200px;
+	overflow: hidden;
+	/* float: right; */
+
+}
+
+#color .top_green {
+	/* padding: 9px 200px; */
+	width: 137px;
+	height: 42px;
+	display: inline-block;
+	background-color: #03b165;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	line-height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.content_green {
+	width: 1198px;
+	height: 350px;
+	background-color: #03b165;
+	padding: 22px 0px 0px 34px;
+	/* margin-top: 42px; */
+	box-sizing: border-box;
+}
+
+/* 紫色 */
+#color .ziSe {
+	padding: 9px 200px;
+	overflow: hidden;
+	/* float: right; */
+
+}
+
+#color .top_ziSe {
+	/* padding: 9px 200px; */
+	width: 137px;
+	height: 42px;
+	display: inline-block;
+	background-color: #8c0c9f;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 22px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	line-height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.content_ziSe {
+	width: 1198px;
+	height: 350px;
+	background-color: #8c0c9f;
+	padding: 22px 0px 0px 34px;
+	/* margin-top: 42px; */
+	box-sizing: border-box;
+}
+
+.jieGuo {
+	width: 1600px;
+	height: 458px;
+	background-color: #F2F2F2;
+	position: relative;
+	padding-right: 200px;
+	box-sizing: border-box;
+}
+
+.import {
+	width: 120px;
+	height: 24px;
+	font-family: MicrosoftYaHei;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #067fb7;
+	padding-top: 50px;
+	margin-left: 473px;
+	margin-bottom: 17px;
+	
+}
+
+.jieGuo .xianTiao {
+	padding-left: 204px;
+}
+
+.jieGuo .text {
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 31px;
+	letter-spacing: 0px;
+	color: #9c9c9c;
+	position: absolute;
+	top: 100px;
+	left: 435px;
+}
+.jieGuo .write{
+	width: 625px;
+		height: 104px;
+		font-family: MicrosoftYaHei;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 29px;
+		letter-spacing: 0px;
+		color: #2b3035;
+		padding-top: 107px;
+		padding-left: 197px;
+}
+.jieGuo .tuXing{
+	position: absolute;
+	right: 200px;
+	top: 88px;
+}
+.font{
+	position: absolute;
+	left: 171px;
+	top: 86px;
+}
+.end_end{
+	position: relative;
+}
+.bold{
+	font-family: MicrosoftYaHei;
+		font-size: 25px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 29px;
+		letter-spacing: 0px;
+		color: #ffffff;
+}
+.small{
+	font-family: MicrosoftYaHei;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		line-height: 29px;
+		letter-spacing: 0px;
+		color: #ffffff;
+}

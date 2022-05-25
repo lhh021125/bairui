@@ -1,0 +1,387 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+#main .white {
+	width: 1600px;
+	height: 2px;
+	background-color: #FBF7F7;
+}
+
+#main .banner {
+	width: 1600px;
+	height: 353px;
+	margin-bottom: 0px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+#main .banner .txt {
+	text-align: center;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 51px;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+	position: absolute;
+	top: 144px;
+	left: 271px;
+}
+
+#main .banner span {
+	font-family: MicrosoftYaHei;
+	font-size: 26px;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 3px;
+	color: #fbf7f7;
+	margin-top: 10px;
+
+}
+
+#main .qianjing {
+	box-sizing: border-box;
+	padding: 0px 200px;
+	background: #BBCDD4;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgb(67, 198, 172), rgb(248, 255, 174));
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgb(67, 198, 172), rgb(248, 255, 174));
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 1600px;
+	height: 383px;
+	position: relative;
+	overflow: hidden;
+}
+
+#main .qianjing .title {
+	width: 195px;
+	height: 50px;
+	border-bottom: 2px solid green;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	/* line-height: 30px; */
+	letter-spacing: 0px;
+	color: #508a39;
+	position: absolute;
+	top: 65px;
+}
+
+#main .qianjing .text {
+	width: 616px;
+	height: 114px;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #424242;
+	position: absolute;
+	top: 162px;
+}
+
+#main .qianjing img {
+	float: right;
+	padding-top: 33px;
+}
+
+#main .graphical {
+	width: 1600px;
+	height: 616px;
+	background-color: #586f86;
+	/* padding: 40px 200px 34px 200px; */
+	box-sizing: border-box;
+	position: relative;
+}
+
+
+#main .one {
+	width: 120px;
+	height: 208px;
+	background-color: #fbf7f7;
+	position: relative;
+	margin: 0 100px;
+}
+
+.one:before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: -60px;
+	border-top: 104px solid transparent;
+	border-bottom: 104px solid transparent;
+	border-right: 60px #fbf7f7 solid;
+	border-left: none;
+}
+
+.one:after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 120px;
+	border-top: 104px solid transparent;
+	border-bottom: 104px solid transparent;
+	border-right: none;
+	border-left: 60px #fbf7f7 solid;
+}
+
+#main .graphical .one {
+	position: absolute;
+	top: 198px;
+	left: 666px;
+}
+
+#main .graphical .one .youshi {
+	/* width: 200px; */
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #212121;
+	border-bottom: 3px solid #676767;
+	margin-top: 70px;
+	text-align: center;
+}
+
+#main .graphical .top {
+	width: 372px;
+	height: 112px;
+	background-color: #197322;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	box-sizing: border-box;
+	position: absolute;
+	top: 40px;
+	left: 614px;
+}
+
+#main .graphical .bottom {
+	width: 372px;
+	height: 112px;
+	background-color: #647600;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	position: absolute;
+	top: 470px;
+	left: 614px;
+}
+
+#main .graphical .left_top {
+	width: 372px;
+	height: 112px;
+	background-color: #994900;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	position: absolute;
+	top: 198px;
+	left: 257px;
+}
+
+#main .graphical .left_bottom {
+	width: 372px;
+	height: 112px;
+	background-color: #019099;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	position: absolute;
+	top: 355px;
+	left: 200px;
+}
+
+#main .graphical .right_bottom {
+	width: 372px;
+	height: 112px;
+	background-color: #955407;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	position: absolute;
+	top: 355px;
+	left: 1027px;
+}
+
+#main .graphical .right_top {
+	width: 372px;
+	height: 112px;
+	background-color: #004287;
+	border-radius: 5px;
+	border: solid 1px #ffffff;
+	position: absolute;
+	top: 198px;
+	left: 972px;
+}
+
+#main .graphical .text {
+	font-family: MicrosoftYaHei;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 16px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	margin: 12px 14px 13px 10px;
+	position: 30px;
+
+
+}
+
+#main .graphical .text span {
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+	position: absolute;
+	top: 30px;
+}
+
+/* 全程化开始 */
+#main .process {
+	width: 1600px;
+	height: 458px;
+	background-color: #ffffff;
+	padding: 0px 200px;
+	box-sizing: border-box;
+
+}
+
+#main .process h1 {
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 24px;
+	font-weight: bold;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #000000;
+	padding-top: 28px;
+	padding-left: 4px;
+	padding-bottom: 65px;
+}
+
+#main .process .left{
+	width:668px;
+	border-right: 2px solid #676767;
+}
+
+.process-left {
+	display: flex;
+	align-items: center;
+
+}
+
+.process-title {
+	background-color: #e59428;
+	width: 115px;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	letter-spacing: 1px;
+	margin-right: 20px;
+}
+
+.process-titles {
+	color: #e59428;
+	width: 90px;
+	margin-right: 40px;
+}
+
+.process-item-title {
+	font-size: 14px;
+	width:70px;
+}
+
+.process-middle-title {
+	background-color: #35897e;
+	width: 115px;
+	
+}
+
+.process-foot-title {
+	background-color: #346e93;
+}
+
+.process-middle-titles {
+	color: #35897e;
+}
+
+.process-foot-titles {
+	color: #346e93;
+}
+
+.right-item {
+	width: 326px;
+	height: 41px;
+	background-color: #53637a;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	margin-top: 13px;
+}
+.two{
+	margin-left: 96px;
+}
+
+
+
+/* #main .process .left {
+	width: 795px;
+	height: 273px;
+	border: 2px solid #676767;
+}
+
+#main .process .left li {
+	width: 124px;
+	height: 43px;
+	background-color: #f2980c;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 69px;
+}
+
+ */
+
+/* <!-- 互联网+时代开始 --> */
+#main .internet {
+	width: 1600px;
+	height: 328px;
+	background: url(../img/bairuiSoftware/blackbg.png);
+	padding: 96px 0px 0px 614px;
+	box-sizing: border-box;
+}
+
+#main .internet .all {
+	width: 756px;
+	height: 139px;
+}
+
+#main .internet div {
+	margin-bottom: 20px;
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 25px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
